@@ -1,0 +1,23 @@
+# Unity generated files
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+
+# Visual Studio / MonoDevelop generated files
+/*.csproj
+/*.unityproj
+/*.sln
+/*.userprefs
+/*.dll
+/*.pdb
+
+# Other files/folders
+/Assets/Settings/
+/Assets/WebGLTemplates/
+/Assets/Examples/
+/Assets/Standard Assets/
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/TagManager.asset

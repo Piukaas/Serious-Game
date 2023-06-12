@@ -555,7 +555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Leer de personages kennen
+  m_Text: Personages
 --- !u!222 &934664694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start de Game
+  m_Text: 'Start '
 --- !u!222 &1170996633
 CanvasRenderer:
   m_ObjectHideFlags: 0

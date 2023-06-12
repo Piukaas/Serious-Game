@@ -1,0 +1,98 @@
+[
+  {
+    "scenarioId": 1,
+    "description": "Een AI-systeem heeft een zeer risicovolle chirurgische ingreep voorgesteld die de overlevingskansen van Finn zou kunnen vergroten, maar er is een aanzienlijke kans op ernstige complicaties en invaliditeit. Moet Finn de ingreep ondergaan?",
+    "question": "Moet Finn de ingreep ondergaan?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel de ingreep mogelijk de overlevingskansen kan vergroten, moeten de risico's en mogelijke gevolgen zorgvuldig worden afgewogen. Gezien de complexe medische geschiedenis van Finn en het hoge risico op complicaties, kan de ingreep zijn kwaliteit van leven en functioneren ernstig beïnvloeden."
+  },
+  {
+    "scenarioId": 2,
+    "description": "Een AI-systeem heeft voorgesteld om Finn een experimenteel medicijn te geven dat mogelijk zijn hartconditie kan verbeteren. Er zijn echter weinig gegevens over de effectiviteit en veiligheid van het medicijn. Moet Finn het experimentele medicijn proberen?",
+    "question": "Moet Finn het experimentele medicijn proberen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel het medicijn mogelijk gunstig kan zijn, moeten de onzekerheden en risico's van experimentele medicijnen zorgvuldig worden afgewogen. Gezien de ernst van Finn's situatie en de beperkte gegevens over het medicijn, is het veiliger om te wachten op meer gegevens en bewijs van effectiviteit en veiligheid."
+  },
+  {
+    "scenarioId": 3,
+    "description": "Een AI-systeem heeft voorspeld dat een palliatieve zorgbenadering de beste optie is voor Finn, gezien de complexiteit en ernst van zijn aandoeningen. Moet de focus worden verlegd naar palliatieve zorg en comfortmaatregelen?",
+    "question": "Moet de focus worden verlegd naar palliatieve zorg en comfortmaatregelen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel palliatieve zorg belangrijk is voor Finn's comfort en kwaliteit van leven, moet ook rekening worden gehouden met mogelijke behandelingsopties die zijn overlevingskansen kunnen vergroten. Het is essentieel om een uitgebalanceerde benadering te hebben waarbij zowel de symptoombeheersing als de behandeling van de onderliggende oorzaken worden overwogen."
+  },
+  {
+    "scenarioId": 4,
+    "description": "Een AI-systeem heeft voorgesteld om Finn in aanmerking te laten komen voor een experimentele behandeling die zijn hartfunctie zou kunnen verbeteren. De behandeling bevindt zich echter nog in de vroege onderzoeksfasen en er zijn geen garanties op succes. Moet Finn deelnemen aan het experimentele behandelingstraject?",
+    "question": "Moet Finn deelnemen aan het experimentele behandelingstraject?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel de experimentele behandeling mogelijk veelbelovend is, moeten de fase van het onderzoek en de mogelijke risico's en bijwerkingen zorgvuldig worden overwogen. Gezien de complexiteit van Finn's situatie en de onzekerheden rond de behandeling, is het verstandiger om te wachten op meer gegevens en resultaten van klinische studies."
+  },
+  {
+    "scenarioId": 5,
+    "description": "Een AI-systeem heeft voorgesteld om Finn een kunsthart te implanteren als een laatste redmiddel om zijn leven te redden. Het implantaat zou echter zijn mobiliteit en kwaliteit van leven aanzienlijk beperken. Moet Finn een kunsthart laten implanteren?",
+    "question": "Moet Finn een kunsthart laten implanteren?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel een kunsthart een levensreddende optie kan zijn, moeten de mogelijke gevolgen voor Finn's mobiliteit en kwaliteit van leven zorgvuldig worden afgewogen. Gezien zijn complexe medische geschiedenis en het risico op aanzienlijke beperkingen, moet de beslissing in overleg met Finn en zijn medisch team worden genomen, waarbij alle aspecten van zijn situatie worden overwogen."
+  },
+  {
+    "scenarioId": 6,
+    "description": "Een AI-systeem kan voorspellen dat een intensief revalidatieprogramma de kwaliteit van leven van Finn zou kunnen verbeteren en zijn overlevingskansen zou kunnen vergroten. Moet Finn deelnemen aan het intensieve revalidatieprogramma?",
+    "question": "Moet Finn deelnemen aan het intensieve revalidatieprogramma?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Expert",
+    "answerExplanation": "Ja. Hoewel een intensief revalidatieprogramma uitdagend kan zijn, kan het de kwaliteit van leven van Finn verbeteren en zijn overlevingskansen vergroten. Het programma moet echter worden aangepast aan zijn unieke behoeften en mogelijkheden, met regelmatige monitoring en aanpassing van de intensiteit en duur van de oefeningen."
+  },
+  {
+    "scenarioId": 7,
+    "description": "Een AI-systeem heeft voorgesteld om Finn te laten deelnemen aan een klinische studie voor een nieuwe behandeling die mogelijk zijn hartfunctie zou kunnen verbeteren. De studie heeft echter een aanzienlijk risico op onbekende bijwerkingen. Moet Finn deelnemen aan de klinische studie?",
+    "question": "Moet Finn deelnemen aan de klinische studie?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel klinische studies belangrijk zijn voor het ontwikkelen van nieuwe behandelingen, moeten de mogelijke risico's en onbekende bijwerkingen zorgvuldig worden afgewogen. Gezien de complexiteit van Finn's situatie en het hoge risico, is het verstandiger om te wachten op meer gegevens en resultaten van de studie voordat hij deelneemt."
+  },
+  {
+    "scenarioId": 8,
+    "description": "Een AI-systeem heeft voorgesteld om Finn een mechanische ondersteuningsinrichting voor zijn hart te geven om de hartfunctie te verbeteren. Het apparaat zou echter periodieke aanpassingen en controles vereisen, en er zijn risico's op complicaties en infecties. Moet Finn een mechanische ondersteuningsinrichting voor zijn hart krijgen?",
+    "question": "Moet Finn een mechanische ondersteuningsinrichting voor zijn hart krijgen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Expert",
+    "answerExplanation": "Nee. Hoewel een mechanische ondersteuningsinrichting de hartfunctie van Finn zou kunnen verbeteren, moeten de risico's van complicaties en infecties zorgvuldig worden afgewogen. Gezien de complexiteit van zijn situatie en mogelijke negatieve gevolgen, moet de beslissing in overleg met Finn en zijn medisch team worden genomen, waarbij alle aspecten van zijn gezondheidstoestand worden overwogen."
+  }
+]

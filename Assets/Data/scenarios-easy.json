@@ -1,0 +1,98 @@
+[
+  {
+    "scenarioId": 1,
+    "description": "Floor is een hartpatiënt. Zij heeft net de eerste scan achter de rug en die waren redelijk goed. Hierbij zijn haar overlevingskansen hoog.",
+    "question": "Moet er actie worden ondernomen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Ondanks dat Floor's overlevingskansen hoog zijn, is het nog steeds belangrijk om actie te ondernemen. Vroege detectie van hart- en vaatziekten kan helpen bij het nemen van preventieve maatregelen en het verminderen van verdere risico's."
+  },
+  {
+    "scenarioId": 2,
+    "description": "Een AI-algoritme kan helpen bij het voorspellen van hart- en vaatziekten op basis van iemands genetische informatie. Moet dit algoritme worden gebruikt om individuele risico's te bepalen?",
+    "question": "Moet het AI-algoritme worden gebruikt?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Het gebruik van AI-algoritmes om individuele risico's te bepalen kan helpen bij vroegtijdige interventie en gepersonaliseerde behandelingen, wat kan leiden tot een betere gezondheidsuitkomst."
+  },
+  {
+    "scenarioId": 3,
+    "description": "Een AI-systeem kan automatisch diagnoses stellen voor hart- en vaatziekten met een hoge mate van nauwkeurigheid.",
+    "question": "Moeten artsen altijd vertrouwen op de AI-diagnose?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Easy",
+    "answerExplanation": "Hoewel AI-diagnoses nuttig kunnen zijn, is het belangrijk dat artsen ze kritisch beoordelen en hun eigen klinische expertise gebruiken om een definitieve diagnose te stellen. AI kan dienen als een ondersteunend hulpmiddel, maar mag niet als enige bron van diagnose worden beschouwd."
+  },
+  {
+    "scenarioId": 4,
+    "description": "Een AI-systeem kan voorspellen welke patiënten het hoogste risico lopen op een hartaanval. Moeten deze patiënten preventieve behandelingen krijgen, zelfs als ze nog geen symptomen hebben?",
+    "question": "Moeten deze patiënten preventieve behandelingen krijgen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Preventieve behandelingen voor patiënten met een hoog risico op een hartaanval kunnen helpen om toekomstige gezondheidsproblemen te voorkomen. Vroegtijdige interventie kan levens redden en de kwaliteit van leven verbeteren."
+  },
+  {
+    "scenarioId": 5,
+    "description": "Een AI-algoritme kan automatisch patiënten identificeren die waarschijnlijk niet zullen reageren op een bepaalde medicatie voor hart- en vaatziekten. Moeten artsen vertrouwen op dit algoritme bij het voorschrijven van medicijnen?",
+    "question": "Moeten artsen vertrouwen op dit algoritme?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Het gebruik van AI-algoritmes om medicijnrespons te voorspellen kan artsen helpen bij het maken van geïnformeerde beslissingen over behandelingen. Dit kan leiden tot een verbeterde respons op medicatie en een betere patiëntuitkomst."
+  },
+  {
+    "scenarioId": 6,
+    "description": "Een AI-systeem kan grote hoeveelheden medische gegevens analyseren en patronen ontdekken die kunnen leiden tot nieuwe inzichten in de behandeling van hart- en vaatziekten. Moet dit AI-systeem worden gebruikt in onderzoek naar nieuwe behandelingen?",
+    "question": "Moet dit AI-systeem worden gebruikt in onderzoek naar nieuwe behandelingen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Het gebruik van AI in onderzoek kan helpen bij het ontdekken van nieuwe behandelingen en therapeutische benaderingen voor hart- en vaatziekten. Het kan leiden tot doorbraken en innovaties die anders mogelijk over het hoofd worden gezien."
+  },
+  {
+    "scenarioId": 7,
+    "description": "Een AI-systeem kan voorspellen welke patiënten waarschijnlijk het beste reageren op een invasieve hartoperatie. Moeten artsen vertrouwen op deze voorspelling bij het nemen van beslissingen over de behandeling?",
+    "question": "Moeten artsen vertrouwen op deze voorspelling?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Het gebruik van AI-voorspellingen kan artsen helpen bij het selecteren van de meest geschikte behandelingsoptie voor patiënten. Dit kan de kans op succes vergroten en onnodige risico's verminderen."
+  },
+  {
+    "scenarioId": 8,
+    "description": "Een AI-systeem kan persoonlijke gezondheidsgegevens van hartpatiënten analyseren en voorspellen wanneer een noodsituatie kan optreden.",
+    "question": "Moet dit AI-systeem worden gebruikt voor vroegtijdige waarschuwingen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Easy",
+    "answerExplanation": "Het gebruik van AI voor vroegtijdige waarschuwingen kan levens redden door tijdig te reageren op noodsituaties. Het stelt zorgverleners in staat om proactieve maatregelen te nemen en de gezondheid van patiënten te bewaken."
+  }
+]

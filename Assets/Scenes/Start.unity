@@ -264,6 +264,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4321996012439512399, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
+      propertyPath: titleText
+      value: 
+      objectReference: {fileID: 789854750}
     - target: {fileID: 8572612175041217720, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
       propertyPath: m_Name
       value: Heart Character
@@ -410,6 +414,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4321996012439512399, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
+      propertyPath: titleText
+      value: 
+      objectReference: {fileID: 789854750}
     - target: {fileID: 8572612175041217720, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
       propertyPath: m_Name
       value: Heart Story
@@ -629,6 +637,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5856719211278238390, guid: cdfe3105cd42586469ad5e48f1567c1a, type: 3}
   m_PrefabInstance: {fileID: 5856719210690263211}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &789854750 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5856719211278238389, guid: cdfe3105cd42586469ad5e48f1567c1a, type: 3}
+  m_PrefabInstance: {fileID: 5856719210690263211}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &934664691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1095,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1382998880}
     m_Modifications:
+    - target: {fileID: 5856719211278238389, guid: cdfe3105cd42586469ad5e48f1567c1a, type: 3}
+      propertyPath: m_Text
+      value: Het leven in handen
+      objectReference: {fileID: 0}
     - target: {fileID: 5856719211278238390, guid: cdfe3105cd42586469ad5e48f1567c1a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1173,6 +1196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4321996012439512399, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
+      propertyPath: titleText
+      value: 
+      objectReference: {fileID: 789854750}
     - target: {fileID: 8572612175041217720, guid: 7fddbeeac8c2e3447acd8c3e10a0880b, type: 3}
       propertyPath: m_Name
       value: Heart Start

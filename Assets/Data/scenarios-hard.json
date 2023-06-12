@@ -1,0 +1,98 @@
+[
+  {
+    "scenarioId": 1,
+    "description": "Een AI-systeem heeft een experimentele behandeling ontwikkeld die de levensduur van Emma zou kunnen verlengen, maar er zijn grote onzekerheden en risico's verbonden aan de behandeling. Moet Emma deelnemen aan de experimentele behandeling?",
+    "question": "Moet Emma deelnemen aan de experimentele behandeling?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Hard",
+    "answerExplanation": "Nee. Hoewel de experimentele behandeling potentieel gunstig kan zijn, moeten de onzekerheden en risico's zorgvuldig worden afgewogen. Gezien Emma's kwetsbare conditie en beperkte behandelingsopties, kan het risico van de experimentele behandeling haar leven te veel in gevaar brengen."
+  },
+  {
+    "scenarioId": 2,
+    "description": "Een AI-systeem kan voorspellen dat Emma nog maar een beperkte tijd te leven heeft. Moet ze deze informatie krijgen, ook al kan het haar emotioneel belasten?",
+    "question": "Moet Emma deze informatie krijgen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Hard",
+    "answerExplanation": "Ja. Hoewel de informatie emotioneel belastend kan zijn, heeft Emma het recht om geïnformeerd te worden over haar gezondheidstoestand en prognose. Het stelt haar in staat om weloverwogen beslissingen te nemen over haar leven en de zorg die ze ontvangt."
+  },
+  {
+    "scenarioId": 3,
+    "description": "Een AI-systeem kan voorspellen dat een experimentele behandeling de kans op herstel voor Emma aanzienlijk zou vergroten, maar er zijn zeer beperkte plaatsen beschikbaar voor deze behandeling en andere patiënten kunnen hierdoor worden uitgesloten. Moet Emma de experimentele behandeling proberen?",
+    "question": "Moet Emma de experimentele behandeling proberen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Hard",
+    "answerExplanation": "Nee. Hoewel de experimentele behandeling potentieel gunstig kan zijn voor Emma, moet er rekening worden gehouden met rechtvaardigheid en de beschikbare middelen. Het zou oneerlijk zijn om andere patiënten uit te sluiten van behandelingen omwille van één persoon."
+  },
+  {
+    "scenarioId": 4,
+    "description": "Een AI-systeem kan voorspellen dat een zeer dure behandeling de levensduur van Emma zou kunnen verlengen, maar deze behandeling is financieel onbetaalbaar voor haar. Moet de behandeling desondanks worden overwogen?",
+    "question": "Moet de behandeling desondanks worden overwogen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Hard",
+    "answerExplanation": "Nee. Hoewel de behandeling potentieel gunstig kan zijn, moet er rekening worden gehouden met de financiële haalbaarheid. Het is niet ethisch verantwoord om Emma een behandeling voor te stellen die ze niet kan betalen, aangezien dit haar mogelijk in financiële problemen kan brengen."
+  },
+  {
+    "scenarioId": 5,
+    "description": "Een AI-systeem kan voorspellen dat Emma baat zou hebben bij een orgaantransplantatie. Moet ze in aanmerking komen voor een orgaantransplantatie?",
+    "question": "Moet Emma in aanmerking komen voor een orgaantransplantatie?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Hard",
+    "answerExplanation": "Ja. Als Emma voldoet aan de medische criteria en er geschikte organen beschikbaar zijn, moet ze in aanmerking komen voor een orgaantransplantatie. Het is belangrijk om een eerlijk en transparant toewijzingsproces te hebben om de beschikbare organen op een rechtvaardige manier toe te wijzen."
+  },
+  {
+    "scenarioId": 6,
+    "description": "Een AI-systeem kan voorspellen dat een zeer risicovolle chirurgische ingreep de enige kans is om Emma's leven te redden, maar er is geen garantie op succes. Moet de ingreep worden uitgevoerd?",
+    "question": "Moet de ingreep worden uitgevoerd?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Hard",
+    "answerExplanation": "Ja. Hoewel de ingreep risicovol is, als het de enige kans is om Emma's leven te redden, moet het worden overwogen. Het is belangrijk om de risico's en mogelijke voordelen zorgvuldig af te wegen en samen met Emma en haar medisch team een geïnformeerde beslissing te nemen."
+  },
+  {
+    "scenarioId": 7,
+    "description": "Een AI-systeem kan voorspellen dat een bepaald medicijn Emma's conditie zou kunnen stabiliseren, maar het medicijn is alleen beschikbaar via een farmaceutisch bedrijf dat hoge prijzen hanteert. Moet Emma het medicijn proberen?",
+    "question": "Moet Emma het medicijn proberen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Hard",
+    "answerExplanation": "Nee. Hoewel het medicijn potentieel gunstig kan zijn, moet rekening worden gehouden met de ethische implicaties van hoge prijzen en toegankelijkheid van medicijnen. Het is niet juist om Emma financieel te belasten met exorbitante kosten, vooral gezien haar kwetsbare conditie."
+  },
+  {
+    "scenarioId": 8,
+    "description": "Een AI-systeem kan voorspellen dat Emma slechts een beperkte tijd te leven heeft en dat verdere behandelingen geen significante verbetering zouden opleveren. Moet de focus worden verlegd naar palliatieve zorg en comfortmaatregelen?",
+    "question": "Moet de focus worden verlegd naar palliatieve zorg en comfortmaatregelen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Hard",
+    "answerExplanation": "Ja. Als verdere behandelingen geen significante verbetering zouden opleveren, is het belangrijk om de kwaliteit van Emma's leven en haar comfort centraal te stellen. Palliatieve zorg kan haar helpen om waardig en zo comfortabel mogelijk haar resterende tijd door te brengen."
+  }
+]

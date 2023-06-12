@@ -1,0 +1,98 @@
+[
+  {
+    "scenarioId": 1,
+    "description": "Mark is een docent van 45 jaar oud met hart- en vaatproblemen. Een AI-systeem kan voorspellen dat een operatie zijn overlevingskansen aanzienlijk zou vergroten. Moet Mark een operatie ondergaan?",
+    "question": "Moet Mark een operatie ondergaan?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Medium",
+    "answerExplanation": "Ja. Hoewel een operatie risico's met zich meebrengt, kan het de overlevingskansen van Mark aanzienlijk vergroten. Het is belangrijk om de mogelijke voordelen en risico's grondig te bespreken met de behandelend arts voordat een beslissing wordt genomen."
+  },
+  {
+    "scenarioId": 2,
+    "description": "Er is een experimenteel AI-algoritme dat kan voorspellen of een patiënt positief zal reageren op een nieuwe medicijnbehandeling. Moet Mark deelnemen aan het experiment om te zien of hij baat heeft bij de nieuwe behandeling?",
+    "question": "Moet Mark deelnemen aan het experiment?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Medium",
+    "answerExplanation": "Nee. Hoewel het experimentele AI-algoritme mogelijk veelbelovend is, moet Mark de mogelijke risico's en onzekerheden afwegen voordat hij deelneemt. Het is belangrijk om eerst meer gegevens en bewijs te verzamelen over de effectiviteit en veiligheid van de nieuwe behandeling."
+  },
+  {
+    "scenarioId": 3,
+    "description": "Een AI-systeem kan de gegevens van Mark analyseren en voorspellen dat hij binnen twee jaar een hartaanval kan krijgen. Moet Mark preventieve maatregelen nemen, zelfs als hij momenteel geen symptomen heeft?",
+    "question": "Moet Mark preventieve maatregelen nemen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Medium",
+    "answerExplanation": "Ja. Hoewel Mark momenteel geen symptomen heeft, kan preventieve behandeling helpen om toekomstige hartaanvallen te voorkomen. Het is belangrijk om samen te werken met zijn arts om geschikte maatregelen te bepalen op basis van zijn individuele risico en gezondheidstoestand."
+  },
+  {
+    "scenarioId": 4,
+    "description": "Een AI-systeem kan voorspellen dat een intensieve trainingsroutine de gezondheid van Mark aanzienlijk zou verbeteren. Moet Mark zich verplichten tot een intensieve trainingsroutine?",
+    "question": "Moet Mark zich verplichten tot een intensieve trainingsroutine?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Medium",
+    "answerExplanation": "Nee. Hoewel lichaamsbeweging belangrijk is voor de gezondheid, moet Mark zijn individuele mogelijkheden en grenzen overwegen. Een intensieve trainingsroutine kan te veeleisend zijn en mogelijk andere gezondheidsrisico's met zich meebrengen. Het is beter om te streven naar een haalbaar en regelmatig bewegingspatroon dat past bij zijn conditie."
+  },
+  {
+    "scenarioId": 5,
+    "description": "Een AI-systeem kan voorspellen dat een bepaald medicijn de conditie van Mark aanzienlijk zou verbeteren. Het medicijn heeft echter bijwerkingen waar sommige patiënten last van hebben. Moet Mark het medicijn proberen?",
+    "question": "Moet Mark het medicijn proberen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Medium",
+    "answerExplanation": "Ja. Hoewel het medicijn bijwerkingen kan hebben, kunnen de voordelen opwegen tegen de risico's. Mark moet een open gesprek hebben met zijn arts over de mogelijke bijwerkingen en de verwachte voordelen van het medicijn om een geïnformeerde beslissing te nemen."
+  },
+  {
+    "scenarioId": 6,
+    "description": "Een AI-systeem kan voorspellen dat een operatie de kwaliteit van leven van Mark aanzienlijk zou verbeteren, maar er is een beperkt aantal chirurgen dat deze operatie kan uitvoeren. Moet Mark proberen de operatie te ondergaan, zelfs als dit betekent dat hij naar een andere stad moet reizen?",
+    "question": "Moet Mark proberen de operatie te ondergaan, zelfs als hij naar een andere stad moet reizen?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "difficulty": "Medium",
+    "answerExplanation": "Ja. Hoewel reizen naar een andere stad en het vinden van gespecialiseerde chirurgen uitdagend kan zijn, kan de operatie de kwaliteit van leven van Mark aanzienlijk verbeteren. Het is belangrijk om de potentiële voordelen af te wegen tegen de praktische uitdagingen en risico's van de reis."
+  },
+  {
+    "scenarioId": 7,
+    "description": "Een AI-algoritme kan voorspellen dat Mark binnen vijf jaar een harttransplantatie nodig zal hebben. Moet Mark zich nu al voorbereiden op een harttransplantatie?",
+    "question": "Moet Mark zich nu al voorbereiden op een harttransplantatie?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Medium",
+    "answerExplanation": "Nee. Hoewel het voorspellen van de behoefte aan een harttransplantatie nuttig kan zijn, is het belangrijk om te wachten op verdere evaluaties en medisch advies. Het is mogelijk dat Mark met andere behandelingen zijn conditie kan stabiliseren of verbeteren zonder een harttransplantatie."
+  },
+  {
+    "scenarioId": 8,
+    "description": "Er is een experimentele AI-behandelingsmethode die de mogelijkheid heeft om Mark volledig te genezen van zijn hart- en vaatziekten. Het is echter nog in de vroege ontwikkelingsfase en er zijn onzekere risico's. Moet Mark deelnemen aan dit experiment?",
+    "question": "Moet Mark deelnemen aan dit experiment?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "difficulty": "Medium",
+    "answerExplanation": "Nee. Hoewel de mogelijkheid van volledige genezing aantrekkelijk is, moet Mark de onzekere risico's en mogelijke bijwerkingen van een experimentele behandeling serieus nemen. Het is belangrijk om te wachten op verdere ontwikkeling en klinische studies voordat hij deelneemt aan een experimenteel behandelingstraject."
+  }
+]

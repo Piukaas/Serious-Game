@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Heart : MonoBehaviour
 {
+    private SceneManager sceneManager;
+
+    private void Awake()
+    {
+        sceneManager = FindObjectOfType<SceneManager>();
+    }
+
     public void OnMouseDown()
     {
         if (gameObject.tag == "Start")
@@ -12,7 +19,7 @@ public class Heart : MonoBehaviour
         }
         else if (gameObject.tag == "Character")
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Characters");
+            sceneManager.InfoButton();
         }
         else if (gameObject.tag == "Story")
         {

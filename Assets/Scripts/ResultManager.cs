@@ -1,0 +1,91 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ResultManager : MonoBehaviour
+{
+    public Text questionText;
+    public Text percentageText;
+    public Text answerExplanationText;
+    public Button nextButton;
+
+    [System.Serializable]
+    public class Question
+    {
+        public int scenarioId;
+        public string description;
+        public string question;
+        public AnswerOption answerOption;
+        public string correctAnswer;
+        public string difficulty;
+        public string answerExplanation;
+    }
+
+    [System.Serializable]
+    public class AnswerOption
+    {
+        public string yes;
+        public string no;
+    }
+
+    private List<Question> questions;
+    private int currentQuestionIndex;
+
+    void Start()
+    {
+        LoadQuestions();
+        ShowCurrentQuestion();
+        nextButton.onClick.AddListener(OnNextButtonClick);
+    }
+
+    public static class JsonHelper
+    {
+        public static T[] FromJson<T>(string json)
+        {
+            string jsonWrapped = "{\"items\":" + json + "}";
+            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(jsonWrapped);
+            return wrapper.items;
+        }
+
+        [System.Serializable]
+        private class Wrapper<T>
+        {
+            public T[] items;
+        }
+    }
+
+    private void LoadQuestions()
+    {
+        string storedQuestions = PlayerPrefs.GetString("Questions");
+        // Remove "items" key from JSON
+        storedQuestions = storedQuestions.Substring(9, storedQuestions.Length - 10);
+        Debug.Log(storedQuestions);
+        questions = new List<Question>(JsonHelper.FromJson<Question>(storedQuestions));
+
+        int correctAnswers = PlayerPrefs.GetInt("CorrectAnswers");
+        int totalQuestions = questions.Count;
+        float percentage = (float)correctAnswers / totalQuestions * 100;
+        percentageText.text = Mathf.RoundToInt(percentage) + "%";
+    }
+
+    private void ShowCurrentQuestion()
+    {
+        Question currentQuestion = questions[currentQuestionIndex];
+        questionText.text = currentQuestion.question;
+        answerExplanationText.text = currentQuestion.answerExplanation;
+    }
+
+    public void OnNextButtonClick()
+    {
+        if (currentQuestionIndex < questions.Count - 1)
+        {
+            currentQuestionIndex++;
+            ShowCurrentQuestion();
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        }
+    }
+}

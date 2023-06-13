@@ -11,7 +11,7 @@ public class Character : MonoBehaviour
         sceneManager = FindObjectOfType<SceneManager>();
     }
 
-    public void ChooseCharacter()
+    public void OnMouseDown()
     {
         if (gameObject.tag == "Floor")
         {
@@ -29,11 +29,6 @@ public class Character : MonoBehaviour
         {
             PlayerPrefs.SetString("Character", "Finn");
         }
-    }
-
-    public void OnMouseDown()
-    {
-        ChooseCharacter();
         sceneManager.MenuButton();
     }
 }

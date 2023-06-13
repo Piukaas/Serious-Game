@@ -10,28 +10,23 @@ public class SceneManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("Characters");
     }
 
-    public void StartButton()
+    public void MenuButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Start");
     }
 
-    public void InfoButton()
+    public void DetailButton()
     {
-        if (PlayerPrefs.GetString("Character") == "Floor")
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Floor Infopage");
-        }
-        else if (PlayerPrefs.GetString("Character") == "Mark")
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Mark Infopage");
-        }
-        else if (PlayerPrefs.GetString("Character") == "Emma")
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Emma Infopage");
-        }
-        else if (PlayerPrefs.GetString("Character") == "Finn")
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Finn Infopage");
-        }
+        UnityEngine.SceneManagement.SceneManager.LoadScene("DetailPage");
+    }
+
+    public void StartButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Infopage");
+    }
+
+    public void GameButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 }

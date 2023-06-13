@@ -34,6 +34,6 @@ public class Character : MonoBehaviour
     public void OnMouseDown()
     {
         ChooseCharacter();
-        sceneManager.StartButton();
+        sceneManager.MenuButton();
     }
 }

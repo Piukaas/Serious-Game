@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Infopage.unity
     guid: 6e1e281d02feb8c4490b44d1c4830f66
   - enabled: 1
-    path: Assets/Scenes/Quiz.unity
+    path: Assets/Scenes/Game.unity
     guid: 9b67dbe79c8ab3544b4b378968a3e464
   - enabled: 1
     path: Assets/Scenes/Result.unity

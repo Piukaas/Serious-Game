@@ -8,7 +8,7 @@ public class Heart : MonoBehaviour
     {
         if (gameObject.tag == "Start")
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Infopage");
         }
         else if (gameObject.tag == "Character")
         {

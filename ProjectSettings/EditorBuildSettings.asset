@@ -31,7 +31,7 @@ EditorBuildSettings:
     guid: aa80d50ced2e55047aa38b5d1f3ad44c
   - enabled: 1
     path: Assets/Scenes/Infopage.unity
-    guid: be8a28378712cb949be607a4a2009d01
+    guid: 662390a0a46a31345834ff26190843bf
   - enabled: 1
     path: Assets/Scenes/Mark Infopage.unity
     guid: 773db8aa7bc543946a9107a1a1cc11f3

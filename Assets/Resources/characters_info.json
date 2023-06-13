@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Floor",
+    "age": "61",
+    "job": "Chef kok",
+    "info": "Floor is een hartpatiënt. Ze heeft net de eerste scan achter de rug en die waren redelijk goed. Hierbij zijn haar overlevingskansen hoog. Maar moet er wel actie worden ondernomen?"
+  },
+  {
+    "name": "Mark",
+    "age": "45",
+    "job": "Docent",
+    "info": "Mark heeft al enige tijd last van hart- en vaatproblemen. Recente onderzoeken hebben aangetoond dat zijn conditie verslechtert, en er zijn tekenen van vernauwde kransslagaders. Hoewel zijn toestand serieus is, is er nog ruimte voor behandeling en verbetering."
+  },
+  {
+    "name": "Emma",
+    "age": "60",
+    "job": "Advocate",
+    "info": "Emma heeft al meerdere hartaanvallen gehad en kampt met een zwakke hartspier. Haar conditie is zeer kwetsbaar en de behandelingsopties zijn beperkt. De beslissingen die je neemt, hebben een grote invloed op haar leven en overlevingskansen."
+  },
+  {
+    "name": "Finn",
+    "age": "68",
+    "job": "Ingenieur",
+    "info": "Finn heeft een complexe medische geschiedenis met meerdere hartoperaties en onderliggende aandoeningen zoals diabetes en hoge bloeddruk. Zijn hart- en vaatproblemen zijn zeer ernstig en hebben een significante impact op zijn kwaliteit van leven. De mogelijkheden zijn beperkt vanwege de complexiteit en ernst van zijn situatie."
+  }
+]

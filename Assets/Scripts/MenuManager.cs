@@ -9,21 +9,7 @@ public class MenuManager : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerPrefs.GetString("Character") == "Floor")
-        {
-            titleText.text = "Het leven in handen \n Floor";
-        }
-        else if (PlayerPrefs.GetString("Character") == "Mark")
-        {
-            titleText.text = "Het leven in handen \n Mark";
-        }
-        else if (PlayerPrefs.GetString("Character") == "Emma")
-        {
-            titleText.text = "Het leven in handen \n Emma";
-        }
-        else if (PlayerPrefs.GetString("Character") == "Finn")
-        {
-            titleText.text = "Het leven in handen \n Finn";
-        }
+        var character = PlayerPrefs.GetString("Character");
+        titleText.text = "Het leven in handen\n" + character;
     }
 }

@@ -26,29 +26,15 @@ public class QuestionManager : MonoBehaviour
     private void LoadQuestions()
     {
         string character = PlayerPrefs.GetString("Character");
-        string jsonFile = "Data/scenarios-easy";
 
-        switch (character)
+        string jsonFile = character switch
         {
-            case "Floor":
-                jsonFile = "Data/scenarios-easy";
-                break;
-
-            case "Mark":
-                jsonFile = "Data/scenarios-medium";
-                break;
-
-            case "Emma":
-                jsonFile = "Data/scenarios-hard";
-                break;
-
-            case "Finn":
-                jsonFile = "Data/scenarios-expert";
-                break;
-
-            default:
-                break;
-        }
+            "Floor" => "Data/scenarios-easy",
+            "Mark" => "Data/scenarios-medium",
+            "Emma" => "Data/scenarios-hard",
+            "Finn" => "Data/scenarios-expert",
+            _ => "Data/scenarios-easy"
+        };
 
         TextAsset jsonData = Resources.Load<TextAsset>(jsonFile);
         questions = new List<Question>(JsonHelper.FromJson<Question>(jsonData.text));
@@ -89,17 +75,17 @@ public class QuestionManager : MonoBehaviour
 
     public void OnYesButtonClick()
     {
-        if (questions[currentQuestionIndex].answerOption.yes == questions[currentQuestionIndex].correctAnswer)
-        {
-            PlayerPrefs.SetInt("CorrectAnswers", PlayerPrefs.GetInt("CorrectAnswers") + 1);
-        }
-        currentQuestionIndex++;
-        ShowCurrentQuestion();
+        OnButtonClick("yes");
     }
 
     public void OnNoButtonClick()
     {
-        if (questions[currentQuestionIndex].answerOption.no == questions[currentQuestionIndex].correctAnswer)
+        OnButtonClick("no");
+    }
+
+    private void OnButtonClick(string answer)
+    {
+        if (questions[currentQuestionIndex].correctAnswer == answer)
         {
             PlayerPrefs.SetInt("CorrectAnswers", PlayerPrefs.GetInt("CorrectAnswers") + 1);
         }

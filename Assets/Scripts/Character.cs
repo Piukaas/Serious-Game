@@ -13,22 +13,7 @@ public class Character : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (gameObject.tag == "Floor")
-        {
-            PlayerPrefs.SetString("Character", "Floor");
-        }
-        else if (gameObject.tag == "Mark")
-        {
-            PlayerPrefs.SetString("Character", "Mark");
-        }
-        else if (gameObject.tag == "Emma")
-        {
-            PlayerPrefs.SetString("Character", "Emma");
-        }
-        else if (gameObject.tag == "Finn")
-        {
-            PlayerPrefs.SetString("Character", "Finn");
-        }
+        PlayerPrefs.SetString("Character", gameObject.tag);
         sceneManager.MenuButton();
     }
 }

@@ -1,20 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class AnimationManager : MonoBehaviour
 {
     public Animator animator;
+    private static readonly int Hover = Animator.StringToHash("Hover");
+    private static readonly int Idle = Animator.StringToHash("Idle");
 
     void OnMouseEnter()
     {
-        animator.SetTrigger("Hover");
+        animator.SetTrigger(Hover);
 
     }
 
     void OnMouseExit()
     {
-        animator.SetTrigger("Idle");
+        animator.SetTrigger(Idle);
     }
 }

@@ -14,11 +14,11 @@ public class Heart : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (gameObject.tag == "Start")
+        if (gameObject.CompareTag("Start"))
         {
             sceneManager.StartButton();
         }
-        else if (gameObject.tag == "Character")
+        else if (gameObject.CompareTag("Character"))
         {
             sceneManager.DetailButton();
         }

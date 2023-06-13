@@ -17,7 +17,7 @@ public class InfoManager : MonoBehaviour
 
     void Start()
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("characters_info");
+        TextAsset jsonFile = Resources.Load<TextAsset>("Data/characters-info");
 
         if (jsonFile != null)
         {
@@ -72,7 +72,7 @@ public class InfoManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Failed to load characters_info JSON file.");
+            Debug.LogError("Failed to load characters-info JSON file.");
         }
     }
 }

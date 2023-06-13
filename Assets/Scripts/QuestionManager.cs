@@ -11,25 +11,6 @@ public class QuestionManager : MonoBehaviour
     public Button yesButton;
     public Button noButton;
 
-    [System.Serializable]
-    public class Question
-    {
-        public int scenarioId;
-        public string description;
-        public string question;
-        public AnswerOption answerOption;
-        public string correctAnswer;
-        public string difficulty;
-        public string answerExplanation;
-    }
-
-    [System.Serializable]
-    public class AnswerOption
-    {
-        public string yes;
-        public string no;
-    }
-
     public List<Question> questions;
     private int currentQuestionIndex;
 

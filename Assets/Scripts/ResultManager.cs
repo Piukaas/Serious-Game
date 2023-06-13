@@ -10,25 +10,6 @@ public class ResultManager : MonoBehaviour
     public Text answerExplanationText;
     public Button nextButton;
 
-    [System.Serializable]
-    public class Question
-    {
-        public int scenarioId;
-        public string description;
-        public string question;
-        public AnswerOption answerOption;
-        public string correctAnswer;
-        public string difficulty;
-        public string answerExplanation;
-    }
-
-    [System.Serializable]
-    public class AnswerOption
-    {
-        public string yes;
-        public string no;
-    }
-
     private List<Question> questions;
     private int currentQuestionIndex;
 

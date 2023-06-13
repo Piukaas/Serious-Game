@@ -46,58 +46,35 @@ public class QuestionManager : MonoBehaviour
     {
         string character = PlayerPrefs.GetString("Character");
         string jsonFile = "Data/scenarios-easy";
-        
+
         switch (character)
         {
             case "Floor":
                 jsonFile = "Data/scenarios-easy";
                 break;
-                
+
             case "Mark":
                 jsonFile = "Data/scenarios-medium";
                 break;
-                
+
             case "Emma":
                 jsonFile = "Data/scenarios-hard";
                 break;
-                
+
             case "Finn":
                 jsonFile = "Data/scenarios-expert";
                 break;
-                
+
             default:
                 break;
         }
-        
+
         TextAsset jsonData = Resources.Load<TextAsset>(jsonFile);
         questions = new List<Question>(JsonHelper.FromJson<Question>(jsonData.text));
         questions = RandomizeList(questions);
         questions.RemoveRange(3, questions.Count - 3);
         string jsonQuestions = JsonHelper.ToJson(questions);
         PlayerPrefs.SetString("Questions", jsonQuestions);
-    }
-
-    public static class JsonHelper
-    {
-        public static T[] FromJson<T>(string json)
-        {
-            string jsonWrapped = "{\"items\":" + json + "}";
-            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(jsonWrapped);
-            return wrapper.items;
-        }
-
-        public static string ToJson<T>(List<T> list)
-        {
-            Wrapper<T> wrapper = new Wrapper<T>();
-            wrapper.items = list.ToArray();
-            return JsonUtility.ToJson(wrapper);
-        }
-
-        [System.Serializable]
-        private class Wrapper<T>
-        {
-            public T[] items;
-        }
     }
 
     private List<T> RandomizeList<T>(List<T> inputList)
@@ -116,9 +93,12 @@ public class QuestionManager : MonoBehaviour
 
     private void ShowCurrentQuestion()
     {
-        if (currentQuestionIndex >= 3) {
+        if (currentQuestionIndex >= 3)
+        {
             UnityEngine.SceneManagement.SceneManager.LoadScene("Result");
-        } else {
+        }
+        else
+        {
             Question currentQuestion = questions[currentQuestionIndex];
             descriptionText.text = currentQuestion.description;
             questionText.text = currentQuestion.question;

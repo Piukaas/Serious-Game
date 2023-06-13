@@ -39,22 +39,6 @@ public class ResultManager : MonoBehaviour
         nextButton.onClick.AddListener(OnNextButtonClick);
     }
 
-    public static class JsonHelper
-    {
-        public static T[] FromJson<T>(string json)
-        {
-            string jsonWrapped = "{\"items\":" + json + "}";
-            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(jsonWrapped);
-            return wrapper.items;
-        }
-
-        [System.Serializable]
-        private class Wrapper<T>
-        {
-            public T[] items;
-        }
-    }
-
     private void LoadQuestions()
     {
         string storedQuestions = PlayerPrefs.GetString("Questions");

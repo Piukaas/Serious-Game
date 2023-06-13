@@ -6,9 +6,16 @@ public class JsonHelper
 {
     public static T[] FromJson<T>(string json)
     {
-        string wrappedJson = "{\"items\":" + json + "}";
-        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(wrappedJson);
+        string jsonWrapped = "{\"items\":" + json + "}";
+        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(jsonWrapped);
         return wrapper.items;
+    }
+
+    public static string ToJson<T>(List<T> list)
+    {
+        Wrapper<T> wrapper = new Wrapper<T>();
+        wrapper.items = list.ToArray();
+        return JsonUtility.ToJson(wrapper);
     }
 
     [System.Serializable]

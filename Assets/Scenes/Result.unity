@@ -128,7 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1236697597}
+    m_TransformParent: {fileID: 1562111750}
     m_Modifications:
     - target: {fileID: 4880593815482586139, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_Name
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -164,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_SizeDelta.y
@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -300
+      value: -280
       objectReference: {fileID: 0}
     - target: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -232,6 +232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
+--- !u!224 &120807909 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4880593815482586140, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
+  m_PrefabInstance: {fileID: 120807908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &120807910 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4880593815482586141, guid: 10b8b1e3c916dc04db5e25d24086103c, type: 3}
@@ -438,7 +443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275336, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275336, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_AnchorMax.x
@@ -515,6 +520,10 @@ PrefabInstance:
     - target: {fileID: 7644865985304275337, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_Name
       value: Next Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 7644865985304275339, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985516281192, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_Name
@@ -682,6 +691,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1562111750}
     m_Modifications:
     - target: {fileID: 8809304283090368619, guid: 1a5c3a7edb701f542b795a718659bdd1, type: 3}
+      propertyPath: m_Text
+      value: Moet het AI-algoritme worden gebruikt?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8809304283090368619, guid: 1a5c3a7edb701f542b795a718659bdd1, type: 3}
       propertyPath: m_FontData.m_BestFit
       value: 0
       objectReference: {fileID: 0}
@@ -731,7 +744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8809304283090368628, guid: 1a5c3a7edb701f542b795a718659bdd1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 360
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 8809304283090368628, guid: 1a5c3a7edb701f542b795a718659bdd1, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1136,6 +1149,7 @@ RectTransform:
   - {fileID: 1480583624}
   - {fileID: 197769208}
   - {fileID: 1236697597}
+  - {fileID: 120807909}
   - {fileID: 686682612}
   m_Father: {fileID: 0}
   m_RootOrder: 1

@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Result.unity
     guid: d8b28412bf8da554d91fd5fb6de39943
+  - enabled: 1
+    path: Assets/Scenes/Reanimation.unity
+    guid: cbcbd50be82c4ec4caa7dd90e3ca013b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 4eeee5e1415de4040b6853b4724ff104
   m_configObjects: {}

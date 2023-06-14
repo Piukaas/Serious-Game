@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+    public void HomeButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+    }
+
     public void CharactersButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Characters");
@@ -28,5 +33,10 @@ public class SceneManager : MonoBehaviour
     public void GameButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
+
+    public void ReanimationButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Reanimation");
     }
 }

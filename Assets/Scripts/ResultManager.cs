@@ -25,7 +25,6 @@ public class ResultManager : MonoBehaviour
         string storedQuestions = PlayerPrefs.GetString("Questions");
         // Remove "items" key from JSON
         storedQuestions = storedQuestions.Substring(9, storedQuestions.Length - 10);
-        Debug.Log(storedQuestions);
         questions = new List<Question>(JsonHelper.FromJson<Question>(storedQuestions));
 
         int correctAnswers = PlayerPrefs.GetInt("CorrectAnswers");
@@ -50,7 +49,14 @@ public class ResultManager : MonoBehaviour
         }
         else
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+            if (PlayerPrefs.GetInt("CorrectAnswers") >= 3)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("NoTutorial");
+            }
+            else
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial");
+            }
         }
     }
 }

@@ -1,14 +1,14 @@
 [
   {
     "scenarioId": 1,
-    "description": "Floor heeft een rusthartslag van 81 slagen per minuut, is dit gezond?",
-    "question": "Is een rusthartslag van 81 slagen per minuut gezond?",
+    "description": "Floor heeft een rusthartslag van 181 slagen per minuut, is dit gezond?",
+    "question": "Is een rusthartslag van 181 slagen per minuut gezond?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "no",
-    "answerExplanation": "Nee. Een rusthartslag van 81 slagen per minuut wordt over het algemeen als hoger dan normaal beschouwd. Een gezonde rusthartslag voor volwassenen ligt meestal tussen 60-100 slagen per minuut."
+    "answerExplanation": "Nee. Een rusthartslag van 181 slagen per minuut wordt over het algemeen als hoger dan normaal beschouwd. Een gezonde rusthartslag voor volwassenen ligt meestal tussen 60-100 slagen per minuut."
   },
   {
     "scenarioId": 2,

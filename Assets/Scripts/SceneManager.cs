@@ -10,6 +10,11 @@ public class SceneManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 
+    public void ResultButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Result");
+    }
+
     public void CharactersButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Characters");

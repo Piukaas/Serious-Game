@@ -895,7 +895,7 @@ PrefabInstance:
       objectReference: {fileID: 520898029}
     - target: {fileID: 7644865985304275339, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HomeButton
+      value: ResultButton
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275339, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

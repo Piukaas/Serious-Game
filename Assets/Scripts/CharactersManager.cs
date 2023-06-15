@@ -32,7 +32,7 @@ public class CharactersManager : MonoBehaviour
             SetColliderEnabled(emma, false);
             SetColliderEnabled(finn, false);
         }
-        else if (level == 2)
+        else if (level == 2 || level == 3)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, false);
@@ -41,7 +41,7 @@ public class CharactersManager : MonoBehaviour
             markLevelLockedText.gameObject.SetActive(false);
             markLockedText.gameObject.SetActive(false);
         }
-        else if (level == 4)
+        else if (level == 4 || level == 5)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, true);
@@ -53,7 +53,7 @@ public class CharactersManager : MonoBehaviour
             markLockedText.gameObject.SetActive(false);
             emmaLockedText.gameObject.SetActive(false);
         }
-        else if (level == 6)
+        else if (level >= 6)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, true);

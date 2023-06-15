@@ -62,7 +62,15 @@ public class QuestionManager : MonoBehaviour
     {
         if (currentQuestionIndex >= 3)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Result");
+            SetScore();
+            if (PlayerPrefs.GetInt("Score") <= 50)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Tutorial");
+            }
+            else
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("NoTutorial");
+            }
         }
         else
         {
@@ -91,5 +99,26 @@ public class QuestionManager : MonoBehaviour
         }
         currentQuestionIndex++;
         ShowCurrentQuestion();
+    }
+
+    private void SetScore()
+    {
+        int wrongAnswers = 3 - PlayerPrefs.GetInt("CorrectAnswers");
+        if (PlayerPrefs.GetString("Character") == "Floor")
+        {
+            PlayerPrefs.SetInt("Score", 100 - wrongAnswers * 10);
+        }
+        else if (PlayerPrefs.GetString("Character") == "Mark")
+        {
+            PlayerPrefs.SetInt("Score", 85 - wrongAnswers * 10);
+        }
+        else if (PlayerPrefs.GetString("Character") == "Emma")
+        {
+            PlayerPrefs.SetInt("Score", 70 - wrongAnswers * 10);
+        }
+        else if (PlayerPrefs.GetString("Character") == "Finn")
+        {
+            PlayerPrefs.SetInt("Score", 55 - wrongAnswers * 10);
+        }
     }
 }

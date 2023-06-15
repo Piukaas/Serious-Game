@@ -39,4 +39,9 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Reanimation");
     }
+
+    public void DeadOrAliveButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("DeadOrAlive");
+    }
 }

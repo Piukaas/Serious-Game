@@ -7,5 +7,6 @@ public class CharactersManager : MonoBehaviour
     void Start()
     {
         PlayerPrefs.DeleteKey("Character");
+        PlayerPrefs.DeleteKey("Score");
     }
 }

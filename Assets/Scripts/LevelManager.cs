@@ -81,6 +81,12 @@ public class LevelManager : MonoBehaviour
         int xp = Random.Range(4, 7) * correctAnswers;
         string character = PlayerPrefs.GetString("Character");
 
+        // if reanimatie geslaagd (score > 0 && score < 50), add 7 xp
+        int score = PlayerPrefs.GetInt("Score");
+        if(score > 0 && score < 50){
+            xp += 7;
+        }
+
         if(character == "Floor"){
             xp = Mathf.RoundToInt(xp * 0.95f);
         } else if(character == "Mark"){

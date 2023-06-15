@@ -19,7 +19,7 @@ public class CharactersManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Character");
         PlayerPrefs.DeleteKey("Score");
 
-        int level = 3;
+        int level = PlayerPrefs.GetInt("Level", 1);
         if (level < 2)
         {
             SetColliderEnabled(mark, false);

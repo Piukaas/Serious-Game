@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 4eeee5e1415de4040b6853b4724ff104
+  - enabled: 1
+    path: Assets/Scenes/DeadOrAlive.unity
+    guid: f43fc7c8e37ab4a46b1a79962db0bdc9
+  - enabled: 1
+    path: Assets/Scenes/NoTutorial.unity
+    guid: d08bf55b6631caf4085fd0f1d7268deb
   m_configObjects: {}

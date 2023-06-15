@@ -1,98 +1,112 @@
 [
   {
     "scenarioId": 1,
-    "description": "Floor is een hartpatiënt. Zij heeft net de eerste scan achter de rug en die waren redelijk goed. Hierbij zijn haar overlevingskansen hoog.",
-    "question": "Moet er actie worden ondernomen?",
-    "answerOption": {
-      "yes": "Ja",
-      "no": "Nee"
-    },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Ondanks dat Floor's overlevingskansen hoog zijn, is het nog steeds belangrijk om actie te ondernemen. Vroege detectie van hart- en vaatziekten kan helpen bij het nemen van preventieve maatregelen en het verminderen van verdere risico's."
-  },
-  {
-    "scenarioId": 2,
-    "description": "Een AI-algoritme kan helpen bij het voorspellen van hart- en vaatziekten op basis van iemands genetische informatie. Moet dit algoritme worden gebruikt om individuele risico's te bepalen?",
-    "question": "Moet het AI-algoritme worden gebruikt?",
-    "answerOption": {
-      "yes": "Ja",
-      "no": "Nee"
-    },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Het gebruik van AI-algoritmes om individuele risico's te bepalen kan helpen bij vroegtijdige interventie en gepersonaliseerde behandelingen, wat kan leiden tot een betere gezondheidsuitkomst."
-  },
-  {
-    "scenarioId": 3,
-    "description": "Een AI-systeem kan automatisch diagnoses stellen voor hart- en vaatziekten met een hoge mate van nauwkeurigheid.",
-    "question": "Moeten artsen altijd vertrouwen op de AI-diagnose?",
+    "description": "Floor heeft een rusthartslag van 81 slagen per minuut, is dit gezond?",
+    "question": "Is een rusthartslag van 81 slagen per minuut gezond?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "no",
-    "difficulty": "Easy",
-    "answerExplanation": "Nee. Hoewel AI-diagnoses nuttig kunnen zijn, is het belangrijk dat artsen ze kritisch beoordelen en hun eigen klinische expertise gebruiken om een definitieve diagnose te stellen. AI kan dienen als een ondersteunend hulpmiddel, maar mag niet als enige bron van diagnose worden beschouwd."
+    "answerExplanation": "Nee. Een rusthartslag van 81 slagen per minuut wordt over het algemeen als hoger dan normaal beschouwd. Een gezonde rusthartslag voor volwassenen ligt meestal tussen 60-100 slagen per minuut."
+  },
+  {
+    "scenarioId": 2,
+    "description": "Floor rookt al 20 jaar lang een pakje sigaretten per dag. Is dit gezond voor haar hart en bloedvaten?",
+    "question": "Is het roken van een pakje sigaretten per dag gezond voor het hart en de bloedvaten van Floor?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Roken is schadelijk voor het hart en de bloedvaten. Het verhoogt het risico op het ontwikkelen van hart- en vaatziekten, zoals hartinfarcten en beroertes."
+  },
+  {
+    "scenarioId": 3,
+    "description": "Floor heeft overgewicht en een BMI van 29. Is dit gezond?",
+    "question": "Is een BMI van 29 gezond voor Floor, die overgewicht heeft?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een BMI van 29 wordt beschouwd als overgewicht. Overgewicht kan het risico op hart- en vaatziekten verhogen."
   },
   {
     "scenarioId": 4,
-    "description": "Een AI-systeem kan voorspellen welke patiënten het hoogste risico lopen op een hartaanval. Moeten deze patiënten preventieve behandelingen krijgen, zelfs als ze nog geen symptomen hebben?",
-    "question": "Moeten deze patiënten preventieve behandelingen krijgen?",
+    "description": "Floor heeft een hoge bloeddruk van 150/90 mmHg. Is dit gezond?",
+    "question": "Is een bloeddruk van 150/90 mmHg gezond voor Floor?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Preventieve behandelingen voor patiënten met een hoog risico op een hartaanval kunnen helpen om toekomstige gezondheidsproblemen te voorkomen. Vroegtijdige interventie kan levens redden en de kwaliteit van leven verbeteren."
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een bloeddruk van 150/90 mmHg wordt als hoog beschouwd. Een normale bloeddruk ligt meestal rond 120/80 mmHg. Een hoge bloeddruk verhoogt het risico op hart- en vaatziekten."
   },
   {
     "scenarioId": 5,
-    "description": "Een AI-algoritme kan automatisch patiënten identificeren die waarschijnlijk niet zullen reageren op een bepaalde medicatie voor hart- en vaatziekten. Moeten artsen vertrouwen op dit algoritme bij het voorschrijven van medicijnen?",
-    "question": "Moeten artsen vertrouwen op dit algoritme?",
+    "description": "Floor heeft een totaal cholesterolgehalte van 210 mg/dL. Is dit gezond?",
+    "question": "Is een totaal cholesterolgehalte van 210 mg/dL gezond voor Floor?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Het gebruik van AI-algoritmes om medicijnrespons te voorspellen kan artsen helpen bij het maken van geïnformeerde beslissingen over behandelingen. Dit kan leiden tot een verbeterde respons op medicatie en een betere patiëntuitkomst."
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een totaal cholesterolgehalte van 210 mg/dL wordt over het algemeen als hoog beschouwd. Een gezond cholesterolgehalte ligt meestal onder de 200 mg/dL. Een hoog cholesterolgehalte kan het risico op hart- en vaatziekten verhogen."
   },
   {
     "scenarioId": 6,
-    "description": "Een AI-systeem kan grote hoeveelheden medische gegevens analyseren en patronen ontdekken die kunnen leiden tot nieuwe inzichten in de behandeling van hart- en vaatziekten. Moet dit AI-systeem worden gebruikt in onderzoek naar nieuwe behandelingen?",
-    "question": "Moet dit AI-systeem worden gebruikt in onderzoek naar nieuwe behandelingen?",
+    "description": "Floor heeft regelmatig last van kortademigheid en vermoeidheid bij lichte inspanning. Is dit normaal?",
+    "question": "Is het normaal dat Floor regelmatig last heeft van kortademigheid en vermoeidheid bij lichte inspanning?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Het gebruik van AI in onderzoek kan helpen bij het ontdekken van nieuwe behandelingen en therapeutische benaderingen voor hart- en vaatziekten. Het kan leiden tot doorbraken en innovaties die anders mogelijk over het hoofd worden gezien."
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Regelmatige kortademigheid en vermoeidheid bij lichte inspanning kunnen tekenen zijn van een onderliggend hartprobleem. Het is belangrijk om dit te laten onderzoeken door een arts."
   },
   {
     "scenarioId": 7,
-    "description": "Een AI-systeem kan voorspellen welke patiënten waarschijnlijk het beste reageren op een invasieve hartoperatie. Moeten artsen vertrouwen op deze voorspelling bij het nemen van beslissingen over de behandeling?",
-    "question": "Moeten artsen vertrouwen op deze voorspelling?",
+    "description": "Floor heeft geen familiegeschiedenis van hart- en vaatziekten. Betekent dit dat ze geen risico loopt?",
+    "question": "Betekent het ontbreken van een familiegeschiedenis van hart- en vaatziekten dat Floor geen risico loopt?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Het gebruik van AI-voorspellingen kan artsen helpen bij het selecteren van de meest geschikte behandelingsoptie voor patiënten. Dit kan de kans op succes vergroten en onnodige risico's verminderen."
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Hoewel een familiegeschiedenis van hart- en vaatziekten het risico kan verhogen, betekent het ontbreken ervan niet dat Floor geen risico loopt. Andere factoren, zoals levensstijl en medische geschiedenis, spelen ook een rol bij het bepalen van het risico."
   },
   {
     "scenarioId": 8,
-    "description": "Een AI-systeem kan persoonlijke gezondheidsgegevens van hartpatiënten analyseren en voorspellen wanneer een noodsituatie kan optreden.",
-    "question": "Moet dit AI-systeem worden gebruikt voor vroegtijdige waarschuwingen?",
+    "description": "Floor heeft regelmatig last van pijn op de borst. Moet ze dit serieus nemen?",
+    "question": "Moet Floor regelmatige pijn op de borst serieus nemen?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "yes",
-    "difficulty": "Easy",
-    "answerExplanation": "Ja. Het gebruik van AI voor vroegtijdige waarschuwingen kan levens redden door tijdig te reageren op noodsituaties. Het stelt zorgverleners in staat om proactieve maatregelen te nemen en de gezondheid van patiënten te bewaken."
+    "answerExplanation": "Ja. Regelmatige pijn op de borst kan een teken zijn van een hartaandoening, zoals angina pectoris. Het is belangrijk om dit serieus te nemen en medische hulp te zoeken voor een juiste diagnose en behandeling."
+  },
+  {
+    "scenarioId": 9,
+    "description": "Floor heeft een normale bloedsuikerspiegel van 95 mg/dL. Is dit gezond?",
+    "question": "Is een bloedsuikerspiegel van 95 mg/dL gezond voor Floor?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "yes",
+    "answerExplanation": "Ja. Een bloedsuikerspiegel van 95 mg/dL wordt meestal als normaal beschouwd. Een normale bloedsuikerspiegel varieert gewoonlijk tussen 70-100 mg/dL."
+  },
+  {
+    "scenarioId": 10,
+    "description": "Floor heeft een LDL-cholesterolgehalte van 130 mg/dL. Is dit gezond?",
+    "question": "Is een LDL-cholesterolgehalte van 130 mg/dL gezond voor Floor?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een LDL-cholesterolgehalte van 130 mg/dL wordt over het algemeen als hoog beschouwd. Een gezond LDL-cholesterolgehalte ligt meestal onder de 100 mg/dL, vooral als er al risicofactoren voor hart- en vaatziekten aanwezig zijn."
   }
 ]

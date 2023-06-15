@@ -39,7 +39,7 @@ public class QuestionManager : MonoBehaviour
         TextAsset jsonData = Resources.Load<TextAsset>(jsonFile);
         questions = new List<Question>(JsonHelper.FromJson<Question>(jsonData.text));
         questions = RandomizeList(questions);
-        questions.RemoveRange(3, questions.Count - 3);
+        questions.RemoveRange(5, questions.Count - 5);
         string jsonQuestions = JsonHelper.ToJson(questions);
         PlayerPrefs.SetString("Questions", jsonQuestions);
     }
@@ -60,7 +60,7 @@ public class QuestionManager : MonoBehaviour
 
     private void ShowCurrentQuestion()
     {
-        if (currentQuestionIndex >= 3)
+        if (currentQuestionIndex >= 5)
         {
             SetScore();
             if (PlayerPrefs.GetInt("Score") <= 50)
@@ -103,7 +103,7 @@ public class QuestionManager : MonoBehaviour
 
     private void SetScore()
     {
-        int wrongAnswers = 3 - PlayerPrefs.GetInt("CorrectAnswers");
+        int wrongAnswers = 5 - PlayerPrefs.GetInt("CorrectAnswers");
         if (PlayerPrefs.GetString("Character") == "Floor")
         {
             PlayerPrefs.SetInt("Score", 100 - wrongAnswers * 10);

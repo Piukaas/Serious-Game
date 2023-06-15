@@ -1,98 +1,112 @@
 [
   {
     "scenarioId": 1,
-    "description": "Mark is een docent van 45 jaar oud met hart- en vaatproblemen. Een AI-systeem kan voorspellen dat een operatie zijn overlevingskansen aanzienlijk zou vergroten. Moet Mark een operatie ondergaan?",
-    "question": "Moet Mark een operatie ondergaan?",
+    "description": "Mark heeft een rusthartslag van 60 BPM. Is dit gezond?",
+    "question": "Heeft Mark met een rusthartslag van 60 BPM een gezonde rusthartslag?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "yes",
-    "difficulty": "Medium",
-    "answerExplanation": "Ja. Hoewel een operatie risico's met zich meebrengt, kan het de overlevingskansen van Mark aanzienlijk vergroten. Het is belangrijk om de mogelijke voordelen en risico's grondig te bespreken met de behandelend arts voordat een beslissing wordt genomen."
+    "answerExplanation": "Ja. Een rusthartslag van 60 BPM wordt over het algemeen als gezond beschouwd. Een normale rusthartslag ligt meestal tussen 60-100 BPM."
   },
   {
     "scenarioId": 2,
-    "description": "Er is een experimenteel AI-algoritme dat kan voorspellen of een patiënt positief zal reageren op een nieuwe medicijnbehandeling. Moet Mark deelnemen aan het experiment om te zien of hij baat heeft bij de nieuwe behandeling?",
-    "question": "Moet Mark deelnemen aan het experiment?",
+    "description": "Mark heeft een BMI van 28. Is dit gezond?",
+    "question": "Heeft Mark met een BMI van 28 een gezond BMI?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "no",
-    "difficulty": "Medium",
-    "answerExplanation": "Nee. Hoewel het experimentele AI-algoritme mogelijk veelbelovend is, moet Mark de mogelijke risico's en onzekerheden afwegen voordat hij deelneemt. Het is belangrijk om eerst meer gegevens en bewijs te verzamelen over de effectiviteit en veiligheid van de nieuwe behandeling."
+    "answerExplanation": "Nee. Een BMI van 28 wordt over het algemeen als overgewicht beschouwd. Een gezond BMI ligt meestal tussen 18,5-24,9."
   },
   {
     "scenarioId": 3,
-    "description": "Een AI-systeem kan de gegevens van Mark analyseren en voorspellen dat hij binnen twee jaar een hartaanval kan krijgen. Moet Mark preventieve maatregelen nemen, zelfs als hij momenteel geen symptomen heeft?",
-    "question": "Moet Mark preventieve maatregelen nemen?",
+    "description": "Mark heeft een bloeddruk van 140/90 mmHg. Is dit gezond?",
+    "question": "Heeft Mark met een bloeddruk van 140/90 mmHg een gezonde bloeddruk?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "yes",
-    "difficulty": "Medium",
-    "answerExplanation": "Ja. Hoewel Mark momenteel geen symptomen heeft, kan preventieve behandeling helpen om toekomstige hartaanvallen te voorkomen. Het is belangrijk om samen te werken met zijn arts om geschikte maatregelen te bepalen op basis van zijn individuele risico en gezondheidstoestand."
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een bloeddruk van 140/90 mmHg wordt meestal als hoog beschouwd. Een gezonde bloeddruk ligt meestal onder 120/80 mmHg."
   },
   {
     "scenarioId": 4,
-    "description": "Een AI-systeem kan voorspellen dat een intensieve trainingsroutine de gezondheid van Mark aanzienlijk zou verbeteren. Moet Mark zich verplichten tot een intensieve trainingsroutine?",
-    "question": "Moet Mark zich verplichten tot een intensieve trainingsroutine?",
+    "description": "Mark heeft een totaal cholesterolgehalte van 190 mg/dL. Is dit gezond?",
+    "question": "Heeft Mark met een totaal cholesterolgehalte van 190 mg/dL een gezond totaal cholesterolgehalte?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "no",
-    "difficulty": "Medium",
-    "answerExplanation": "Nee. Hoewel lichaamsbeweging belangrijk is voor de gezondheid, moet Mark zijn individuele mogelijkheden en grenzen overwegen. Een intensieve trainingsroutine kan te veeleisend zijn en mogelijk andere gezondheidsrisico's met zich meebrengen. Het is beter om te streven naar een haalbaar en regelmatig bewegingspatroon dat past bij zijn conditie."
+    "correctAnswer": "yes",
+    "answerExplanation": "Ja. Een totaal cholesterolgehalte van 190 mg/dL wordt meestal als gezond beschouwd. Een gezond totaal cholesterolgehalte ligt meestal onder 200 mg/dL."
   },
   {
     "scenarioId": 5,
-    "description": "Een AI-systeem kan voorspellen dat een bepaald medicijn de conditie van Mark aanzienlijk zou verbeteren. Het medicijn heeft echter bijwerkingen waar sommige patiënten last van hebben. Moet Mark het medicijn proberen?",
-    "question": "Moet Mark het medicijn proberen?",
+    "description": "Mark heeft een HDL-cholesterolgehalte van 50 mg/dL. Is dit gezond?",
+    "question": "Heeft Mark met een HDL-cholesterolgehalte van 50 mg/dL een gezond HDL-cholesterolgehalte?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "yes",
-    "difficulty": "Medium",
-    "answerExplanation": "Ja. Hoewel het medicijn bijwerkingen kan hebben, kunnen de voordelen opwegen tegen de risico's. Mark moet een open gesprek hebben met zijn arts over de mogelijke bijwerkingen en de verwachte voordelen van het medicijn om een geïnformeerde beslissing te nemen."
+    "answerExplanation": "Ja. Een HDL-cholesterolgehalte van 50 mg/dL wordt meestal als gezond beschouwd. HDL-cholesterol staat bekend als 'goed' cholesterol en een hoger niveau wordt vaak geassocieerd met een lager risico op hart- en vaatziekten."
   },
   {
     "scenarioId": 6,
-    "description": "Een AI-systeem kan voorspellen dat een operatie de kwaliteit van leven van Mark aanzienlijk zou verbeteren, maar er is een beperkt aantal chirurgen dat deze operatie kan uitvoeren. Moet Mark proberen de operatie te ondergaan, zelfs als dit betekent dat hij naar een andere stad moet reizen?",
-    "question": "Moet Mark proberen de operatie te ondergaan, zelfs als hij naar een andere stad moet reizen?",
+    "description": "Mark heeft een triglyceridengehalte van 200 mg/dL. Is dit gezond?",
+    "question": "Heeft Mark met een triglyceridengehalte van 200 mg/dL een gezond triglyceridengehalte?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een triglyceridengehalte van 200 mg/dL wordt meestal als hoog beschouwd. Een gezond triglyceridengehalte ligt meestal onder 150 mg/dL."
+  },
+  {
+    "scenarioId": 6,
+    "description": "Mark heeft een triglyceridengehalte van 200 mg/dL. Is dit gezond?",
+    "question": "Heeft Mark met een triglyceridengehalte van 200 mg/dL een gezond triglyceridengehalte?",
+    "answerOption": {
+      "yes": "Ja",
+      "no": "Nee"
+    },
+    "correctAnswer": "no",
+    "answerExplanation": "Nee. Een triglyceridengehalte van 200 mg/dL wordt meestal als hoog beschouwd. Een gezond triglyceridengehalte ligt meestal onder 150 mg/dL."
+  },
+  {
+    "scenarioId": 8,
+    "description": "Mark heeft een HbA1c-waarde van 6,5%. Is dit gezond?",
+    "question": "Heeft Mark met een HbA1c-waarde van 6,5% een gezonde HbA1c-waarde?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
     "correctAnswer": "yes",
-    "difficulty": "Medium",
-    "answerExplanation": "Ja. Hoewel reizen naar een andere stad en het vinden van gespecialiseerde chirurgen uitdagend kan zijn, kan de operatie de kwaliteit van leven van Mark aanzienlijk verbeteren. Het is belangrijk om de potentiële voordelen af te wegen tegen de praktische uitdagingen en risico's van de reis."
+    "answerExplanation": "Ja. Een HbA1c-waarde van 6,5% wordt meestal als gezond beschouwd. Een gezonde HbA1c-waarde ligt meestal onder 7%."
   },
   {
-    "scenarioId": 7,
-    "description": "Een AI-algoritme kan voorspellen dat Mark binnen vijf jaar een harttransplantatie nodig zal hebben. Moet Mark zich nu al voorbereiden op een harttransplantatie?",
-    "question": "Moet Mark zich nu al voorbereiden op een harttransplantatie?",
+    "scenarioId": 9,
+    "description": "Mark heeft een familiegeschiedenis van hart- en vaatziekten. Verhoogt dit zijn risico op het ontwikkelen van hart- en vaatziekten?",
+    "question": "Verhoogt de familiegeschiedenis van hart- en vaatziekten het risico van Mark op het ontwikkelen van hart- en vaatziekten?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "no",
-    "difficulty": "Medium",
-    "answerExplanation": "Nee. Hoewel het voorspellen van de behoefte aan een harttransplantatie nuttig kan zijn, is het belangrijk om te wachten op verdere evaluaties en medisch advies. Het is mogelijk dat Mark met andere behandelingen zijn conditie kan stabiliseren of verbeteren zonder een harttransplantatie."
+    "correctAnswer": "yes",
+    "answerExplanation": "Ja. Een familiegeschiedenis van hart- en vaatziekten kan het risico op het ontwikkelen van hart- en vaatziekten verhogen, omdat genetische factoren een rol kunnen spelen."
   },
   {
-    "scenarioId": 8,
-    "description": "Er is een experimentele AI-behandelingsmethode die de mogelijkheid heeft om Mark volledig te genezen van zijn hart- en vaatziekten. Het is echter nog in de vroege ontwikkelingsfase en er zijn onzekere risico's. Moet Mark deelnemen aan dit experiment?",
-    "question": "Moet Mark deelnemen aan dit experiment?",
+    "scenarioId": 10,
+    "description": "Mark rookt regelmatig. Verhoogt dit zijn risico op hart- en vaatziekten?",
+    "question": "Verhoogt regelmatig roken het risico van Mark op het ontwikkelen van hart- en vaatziekten?",
     "answerOption": {
       "yes": "Ja",
       "no": "Nee"
     },
-    "correctAnswer": "no",
-    "difficulty": "Medium",
-    "answerExplanation": "Nee. Hoewel de mogelijkheid van volledige genezing aantrekkelijk is, moet Mark de onzekere risico's en mogelijke bijwerkingen van een experimentele behandeling serieus nemen. Het is belangrijk om te wachten op verdere ontwikkeling en klinische studies voordat hij deelneemt aan een experimenteel behandelingstraject."
+    "correctAnswer": "yes",
+    "answerExplanation": "Ja. Roken is een bekende risicofactor voor hart- en vaatziekten en kan het risico op het ontwikkelen van deze aandoeningen aanzienlijk verhogen."
   }
 ]

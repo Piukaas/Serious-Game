@@ -23,37 +23,37 @@ public class CharactersManager : MonoBehaviour
         if (level < 2)
         {
             SetColliderEnabled(mark, false);
-            markText.text = "Locked";
             SetColliderEnabled(emma, false);
-            emmaText.text = "Locked";
             SetColliderEnabled(finn, false);
+            markText.text = "Locked";
+            emmaText.text = "Locked";
             finnText.text = "Locked";
         }
         else if (level == 2)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, false);
-            emmaText.text = "Locked";
             SetColliderEnabled(finn, false);
+            markText.text = "Medium";
+            emmaText.text = "Locked";
             finnText.text = "Locked";
         }
         else if (level == 4)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, true);
-            emmaText.text = "Hard";
             SetColliderEnabled(finn, false);
+            markText.text = "Medium";
+            emmaText.text = "Hard";
             finnText.text = "Locked";
         }
         else if (level == 6)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, true);
-            emmaText.text = "Hard";
             SetColliderEnabled(finn, true);
+            markText.text = "Medium";
+            emmaText.text = "Hard";
             finnText.text = "Expert";
         }
     }

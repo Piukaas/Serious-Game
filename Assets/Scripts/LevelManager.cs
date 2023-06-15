@@ -69,6 +69,7 @@ public class LevelManager : MonoBehaviour
         if (newXp >= GetRequiredXp())
         {
             LevelUp();
+            AnimateProgressBar(GetRequiredXp(), 0);
         }
 
         SetText();

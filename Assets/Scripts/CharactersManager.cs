@@ -11,6 +11,12 @@ public class CharactersManager : MonoBehaviour
     public Text markText;
     public Text emmaText;
     public Text finnText;
+    public Text markLevelLockedText;
+    public Text emmaLevelLockedText;
+    public Text finnLevelLockedText;
+    public Text markLockedText;
+    public Text emmaLockedText;
+    public Text finnLockedText;
 
     public Color disabledColor = Color.gray;
 
@@ -23,38 +29,43 @@ public class CharactersManager : MonoBehaviour
         if (level < 2)
         {
             SetColliderEnabled(mark, false);
-            markText.text = "Locked";
             SetColliderEnabled(emma, false);
-            emmaText.text = "Locked";
             SetColliderEnabled(finn, false);
-            finnText.text = "Locked";
         }
         else if (level == 2)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, false);
-            emmaText.text = "Locked";
             SetColliderEnabled(finn, false);
-            finnText.text = "Locked";
+
+            markLevelLockedText.gameObject.SetActive(false);
+            markLockedText.gameObject.SetActive(false);
         }
         else if (level == 4)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, true);
-            emmaText.text = "Hard";
             SetColliderEnabled(finn, false);
-            finnText.text = "Locked";
+
+            markLevelLockedText.gameObject.SetActive(false);
+            emmaLevelLockedText.gameObject.SetActive(false);
+
+            markLockedText.gameObject.SetActive(false);
+            emmaLockedText.gameObject.SetActive(false);
         }
         else if (level == 6)
         {
             SetColliderEnabled(mark, true);
-            markText.text = "Medium";
             SetColliderEnabled(emma, true);
-            emmaText.text = "Hard";
             SetColliderEnabled(finn, true);
-            finnText.text = "Expert";
+
+            markLevelLockedText.gameObject.SetActive(false);
+            emmaLevelLockedText.gameObject.SetActive(false);
+            finnLevelLockedText.gameObject.SetActive(false);
+
+            markLockedText.gameObject.SetActive(false);
+            emmaLockedText.gameObject.SetActive(false);
+            finnLockedText.gameObject.SetActive(false);
         }
     }
 

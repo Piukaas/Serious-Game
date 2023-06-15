@@ -19,7 +19,7 @@ public class CharactersManager : MonoBehaviour
         PlayerPrefs.DeleteKey("Character");
         PlayerPrefs.DeleteKey("Score");
 
-        int level = PlayerPrefs.GetInt("Level", 1);
+        int level = 3;
         if (level < 2)
         {
             SetColliderEnabled(mark, false);
@@ -29,7 +29,7 @@ public class CharactersManager : MonoBehaviour
             emmaText.text = "Locked";
             finnText.text = "Locked";
         }
-        else if (level == 2)
+        else if (level >= 2)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, false);
@@ -38,7 +38,7 @@ public class CharactersManager : MonoBehaviour
             emmaText.text = "Locked";
             finnText.text = "Locked";
         }
-        else if (level == 4)
+        else if (level >= 4)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, true);
@@ -47,7 +47,7 @@ public class CharactersManager : MonoBehaviour
             emmaText.text = "Hard";
             finnText.text = "Locked";
         }
-        else if (level == 6)
+        else if (level >= 6)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, true);

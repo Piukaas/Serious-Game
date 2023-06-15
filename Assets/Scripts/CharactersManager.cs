@@ -29,7 +29,7 @@ public class CharactersManager : MonoBehaviour
             emmaText.text = "Locked";
             finnText.text = "Locked";
         }
-        else if (level >= 2)
+        else if (level == 2 || level == 3)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, false);
@@ -38,7 +38,7 @@ public class CharactersManager : MonoBehaviour
             emmaText.text = "Locked";
             finnText.text = "Locked";
         }
-        else if (level >= 4)
+        else if (level == 4 || level == 5)
         {
             SetColliderEnabled(mark, true);
             SetColliderEnabled(emma, true);

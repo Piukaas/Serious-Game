@@ -60,10 +60,9 @@ public class ResultManager : MonoBehaviour
         {
             currentQuestionIndex++;
             ShowCurrentQuestion();
-            // if last question, change button text to "Ga terug naar menu"
             if (currentQuestionIndex == questions.Count - 1)
             {
-                nextButton.GetComponentInChildren<Text>().text = "Menu";
+                nextButton.GetComponentInChildren<Text>().text = "Speel opnieuw";
             }
         }
         else

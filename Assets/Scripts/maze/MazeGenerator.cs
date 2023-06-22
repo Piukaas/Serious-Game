@@ -3,13 +3,14 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
-namespace maze
+namespace Maze
 {
     public class MazeGenerator : MonoBehaviour
     {
         public int width;
         public int height;
         public MazeSolver mazeSolver;
+        public GameObject hintPanel;
         public TileBase wallTile;
         public TileBase pathTile;
         private bool[,] _grid;
@@ -20,7 +21,11 @@ namespace maze
             _tilemap = GetComponent<Tilemap>();
             InitializeGrid();
             GenerateMaze();
+        }
 
+        public void SolveMaze()
+        {
+            hintPanel.SetActive(false);
             mazeSolver.Solve();
         }
 

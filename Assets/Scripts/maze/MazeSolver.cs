@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace maze
+namespace Maze
 {
     public class MazeSolver : MonoBehaviour
     {
@@ -34,7 +34,7 @@ namespace maze
                 {
                     Vector3Int tilePosition = new Vector3Int(x, y, 0);
                     TileBase tile = tilemap.GetTile(tilePosition);
-                    
+
                     if (tile == null || tile.name == "Path")
                     {
                         _grid[tilePosition] = new Node(tilePosition, true);

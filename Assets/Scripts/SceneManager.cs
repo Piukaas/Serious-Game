@@ -40,6 +40,11 @@ public class SceneManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 
+    public void MazeButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Maze");
+    }
+
     public void ReanimationButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Reanimation");

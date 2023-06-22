@@ -31,24 +31,30 @@ public class LevelManager : MonoBehaviour
         SetText();
     }
 
-    public void SetText() {
-        if(levelText){
+    public void SetText()
+    {
+        if (levelText)
+        {
             levelText.text = GetLevel().ToString();
         }
 
-        if(xpText){
+        if (xpText)
+        {
             xpText.text = GetXp().ToString();
         }
 
-        if(requiredXpText){
+        if (requiredXpText)
+        {
             requiredXpText.text = GetRequiredXp().ToString();
         }
 
-        if(percentageText){
+        if (percentageText)
+        {
             percentageText.text = GetXpPercentageAsFloat().ToString() + "%";
         }
 
-        if(progressBar){
+        if (progressBar)
+        {
             progressBar.fillAmount = GetXpPercentageAsFloat() / 100f;
         }
     }
@@ -59,7 +65,8 @@ public class LevelManager : MonoBehaviour
         int newXp = currentXp + xp;
         PlayerPrefs.SetInt("Xp", newXp);
 
-        if(xpReceived){
+        if (xpReceived)
+        {
             xpReceived.text = "+" + xp.ToString() + " XP";
         }
 
@@ -75,25 +82,41 @@ public class LevelManager : MonoBehaviour
         SetText();
     }
 
-    public void AddXpBased() {
+    public void AddXpBased()
+    {
         // add xp based on correct answers. 4 - 6 xp per correct answer
         int correctAnswers = PlayerPrefs.GetInt("CorrectAnswers");
         int xp = Random.Range(4, 7) * correctAnswers;
         string character = PlayerPrefs.GetString("Character");
 
+        // if finished maze, add 10 xp
+        string finishedMaze = PlayerPrefs.GetString("FinishedMaze");
+        if (finishedMaze == "Yes")
+        {
+            xp += 10;
+        }
+
         // if reanimatie geslaagd (score > 0 && score < 50), add 7 xp
         int score = PlayerPrefs.GetInt("Score");
-        if(score > 0 && score < 50){
+        if (score > 0 && score < 50)
+        {
             xp += 7;
         }
 
-        if(character == "Floor"){
+        if (character == "Floor")
+        {
             xp = Mathf.RoundToInt(xp * 0.95f);
-        } else if(character == "Mark"){
+        }
+        else if (character == "Mark")
+        {
             xp = Mathf.RoundToInt(xp * 1.07f);
-        } else if(character == "Emma"){
+        }
+        else if (character == "Emma")
+        {
             xp = Mathf.RoundToInt(xp * 1.14f);
-        } else if(character == "Finn"){
+        }
+        else if (character == "Finn")
+        {
             xp = Mathf.RoundToInt(xp * 1.22f);
         }
 
@@ -122,7 +145,7 @@ public class LevelManager : MonoBehaviour
         int requiredXp = GetRequiredXp();
         return Mathf.RoundToInt((float)currentXp / requiredXp * 100);
     }
-    
+
     public void LevelUp()
     {
         int currentLevel = GetLevel();

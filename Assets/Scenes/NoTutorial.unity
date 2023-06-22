@@ -253,8 +253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 80}
-  m_SizeDelta: {x: 550, y: 200}
+  m_AnchoredPosition: {x: 0, y: 70}
+  m_SizeDelta: {x: 700, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &779873781
 MonoBehaviour:
@@ -289,7 +289,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\rAls gevolg van de juiste keuzes heeft <Name> geen hartaanval gekregen."
+  m_Text: "\rAls gevolg van de juiste keuzes heeft <Name> geen hartaanval gekregen.\n\n<Name>
+    mag nu het ziekenhuis verlaten. Navigeer door het doolhof met de pijltjestoetsen
+    en verlaat het ziekenhuis binnen de tijdslimiet om een XP-bonus te verdienen!"
 --- !u!222 &779873782
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -500,8 +502,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060493578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -912,7 +914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275336, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 230
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275336, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_SizeDelta.y
@@ -980,7 +982,7 @@ PrefabInstance:
       objectReference: {fileID: 520898029}
     - target: {fileID: 7644865985304275339, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResultButton
+      value: MazeButton
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985304275339, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -996,7 +998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7644865985516281194, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}
       propertyPath: m_Text
-      value: Ontvang je prijs
+      value: Verlaat het ziekenhuis
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 452a6f25440e64d4fb8dbef011790f39, type: 3}

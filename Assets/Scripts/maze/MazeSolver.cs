@@ -7,13 +7,21 @@ namespace Maze
     public class MazeSolver : MonoBehaviour
     {
         public Tilemap tilemap;
-        public Vector3Int startPoint;
-        public Vector3Int endPoint;
+        public Vector2Int startPoint;
+        public Vector2Int endPoint;
         public TileBase highlightTile;
 
-        private Dictionary<Vector3Int, Node> _grid;
+        private Dictionary<Vector2Int, Node> _grid;
         private List<Node> _openList;
         private List<Node> _closedList;
+        
+        private readonly Vector2Int[] _directions =
+        {
+            Vector2Int.up,
+            Vector2Int.down,
+            Vector2Int.right,
+            Vector2Int.left
+        };
 
         public void Solve()
         {
@@ -23,7 +31,7 @@ namespace Maze
 
         private void InitializeGrid()
         {
-            _grid = new Dictionary<Vector3Int, Node>();
+            _grid = new Dictionary<Vector2Int, Node>();
 
             BoundsInt bounds = tilemap.cellBounds;
 
@@ -32,16 +40,16 @@ namespace Maze
             {
                 for (int y = bounds.yMin; y < bounds.yMax; y++)
                 {
-                    Vector3Int tilePosition = new Vector3Int(x, y, 0);
-                    TileBase tile = tilemap.GetTile(tilePosition);
+                    Vector2Int pos = new Vector2Int(x, y);
+                    TileBase tile = tilemap.GetTile(new Vector3Int(x, y, 0));
 
                     if (tile == null || tile.name == "Path")
                     {
-                        _grid[tilePosition] = new Node(tilePosition, true);
+                        _grid[pos] = new Node(pos, true);
                     }
                     else
                     {
-                        _grid[tilePosition] = new Node(tilePosition, false);
+                        _grid[pos] = new Node(pos, false);
                     }
                 }
             }
@@ -52,7 +60,7 @@ namespace Maze
             Node startNode = _grid[startPoint];
             Node endNode = _grid[endPoint];
 
-            _openList = new List<Node> { startNode };
+            _openList = new List<Node> {startNode};
             _closedList = new List<Node>();
 
             startNode.GCost = 0;
@@ -64,6 +72,7 @@ namespace Maze
 
                 if (currentNode == endNode)
                 {
+                    // Found the path!
                     RetracePath(startNode, endNode);
                     break;
                 }
@@ -103,9 +112,10 @@ namespace Maze
 
             for (int i = 1; i < _openList.Count; i++)
             {
-                if (_openList[i].FCost < lowestFCostNode.FCost || (_openList[i].FCost == lowestFCostNode.FCost && _openList[i].HCost < lowestFCostNode.HCost))
+                Node node = _openList[i];
+                if (node.FCost < lowestFCostNode.FCost || (node.FCost == lowestFCostNode.FCost && node.HCost < lowestFCostNode.HCost))
                 {
-                    lowestFCostNode = _openList[i];
+                    lowestFCostNode = node;
                 }
             }
 
@@ -116,17 +126,9 @@ namespace Maze
         {
             List<Node> neighbors = new List<Node>();
 
-            Vector3Int[] directions =
+            foreach (Vector2Int direction in _directions)
             {
-                new(0, 1, 0), // Up
-                new(0, -1, 0), // Down
-                new(1, 0, 0), // Right
-                new(-1, 0, 0) // Left
-            };
-
-            foreach (Vector3Int direction in directions)
-            {
-                Vector3Int neighborPosition = node.Position + direction;
+                Vector2Int neighborPosition = node.Position + direction;
 
                 if (_grid.TryGetValue(neighborPosition, out var value))
                 {
@@ -143,14 +145,15 @@ namespace Maze
 
             while (currentNode != startNode)
             {
-                tilemap.SetTile(currentNode.Position, highlightTile);
+                Vector2Int pos = currentNode.Position;
+                tilemap.SetTile(new Vector3Int(pos.x, pos.y, 0), highlightTile);
                 currentNode = currentNode.Parent;
             }
         }
 
         private class Node
         {
-            public Vector3Int Position;
+            public Vector2Int Position;
             public readonly bool IsWalkable;
             public float GCost;
             public float HCost;
@@ -158,7 +161,7 @@ namespace Maze
 
             public float FCost => GCost + HCost;
 
-            public Node(Vector3Int position, bool isWalkable)
+            public Node(Vector2Int position, bool isWalkable)
             {
                 Position = position;
                 IsWalkable = isWalkable;

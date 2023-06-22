@@ -9,6 +9,7 @@ namespace maze
     {
         public int width;
         public int height;
+        public MazeSolver mazeSolver;
         public TileBase wallTile;
         public TileBase pathTile;
         private bool[,] _grid;
@@ -19,6 +20,8 @@ namespace maze
             _tilemap = GetComponent<Tilemap>();
             InitializeGrid();
             GenerateMaze();
+
+            mazeSolver.Solve();
         }
 
         private void InitializeGrid()

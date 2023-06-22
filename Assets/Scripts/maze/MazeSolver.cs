@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace Maze
+namespace maze
 {
     public class MazeSolver : MonoBehaviour
     {

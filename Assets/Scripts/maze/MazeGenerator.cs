@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
-namespace Maze
+namespace maze
 {
     public class MazeGenerator : MonoBehaviour
     {

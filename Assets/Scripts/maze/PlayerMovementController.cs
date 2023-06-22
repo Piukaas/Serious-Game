@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Maze
+namespace maze
 {
     public class PlayerMovementController : MonoBehaviour
     {
